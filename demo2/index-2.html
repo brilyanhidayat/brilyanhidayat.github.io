@@ -1,0 +1,1318 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+   <meta charset="utf-8">
+   <title>Brulloft – Wedding planner HTML5 Template</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Place favicon.ico in the root directory -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/animate.css">
+   <link rel="stylesheet" href="assets/css/custom-animation.css">
+   <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
+   <link rel="stylesheet" href="assets/css/swiper-bundle.css">
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+   <link rel="stylesheet" href="assets/css/nice-select.css">
+   <link rel="stylesheet" href="assets/css/spacing.css">
+   <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+   
+   <!-- preloader start -->
+   <div id="loading">
+      <div class="preloader-close">x</div>
+      <div id="loading-center">
+         <div id="loading-center-absolute">
+            <div class="object" id="object_four"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_one"></div>
+         </div>
+      </div>
+   </div>
+   <!-- preloader start -->
+
+   <!-- back to top start -->
+   <div class="back-to-top-wrapper">
+      <button id="back_to_top" type="button" class="back-to-top-btn">
+         <svg width="12" height="7" viewBox="0 0 12 7" fill="none">
+            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+               stroke-linejoin="round" />
+         </svg>
+      </button>
+   </div>
+   <!-- back to top end -->
+
+   <!-- search popup start -->
+   <div class="search__popup">
+      <div class="container">
+         <div class="row gx-30">
+            <div class="col-xxl-12">
+               <div class="search__wrapper">
+                  <div class="search__top d-flex justify-content-between align-items-center">
+                     <div class="search__logo">
+                        <a href="index.html">
+                           <img src="assets/img/logo/logo-white.png" alt="img">
+                        </a>
+                     </div>
+                     <div class="search__close">
+                        <button type="button" class="search__close-btn search-close-btn">
+                           <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                              <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                           </svg>
+                        </button>
+                     </div>
+                  </div>
+                  <div class="search__form">
+                     <form action="#">
+                        <div class="search__input">
+                           <input class="search-input-field" type="text" placeholder="Type here to search...">
+                           <span class="search-focus-border"></span>
+                           <button type="submit">
+                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                 <path
+                                    d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- search popup end -->
+   <!-- rr-offcanvus-area-start -->
+   <div class="rroffcanvas-area">
+      <div class="rroffcanvas">
+         <div class="rroffcanvas__close-btn">
+            <button class="close-btn"><i class="fal fa-times"></i></button>
+         </div>
+         <div class="rroffcanvas__logo">
+            <a href="index.html">
+               <img src="assets/img/logo/logo-white.png" alt="img">
+            </a>
+         </div>
+         <div class="rr-main-menu-mobile d-xl-none"></div>
+         <div class="rroffcanvas__contact-info">
+            <div class="rroffcanvas__contact-title">
+               <h5>Contact us</h5>
+            </div>
+            <ul>
+               <li>
+                  <i class="fa-light fa-location-dot"></i>
+                  <a href="htrrs://www.google.com/maps/@23.8223586,90.3661283,15z" target="_blank">Melbone st,
+                     Australia, Ny 12099</a>
+               </li>
+               <li>
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:example@gmail.com">example@gmail.com</a>
+               </li>
+               <li>
+                  <i class="fal fa-phone-alt"></i>
+                  <a href="tel:48555223224">+48 555 223 224</a>
+               </li>
+            </ul>
+         </div>
+         <div class="rroffcanvas__social">
+            <div class="social-icon">
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="body-overlay"></div>
+   <!-- rr-offcanvus-area-end -->
+   <!-- header main area end -->
+   <header class="rr-header-2-main z-index-3">
+      <!-- header area start -->
+      <div id="header-sticky" class="rr-header-2-area">
+         <div class="container rr-header-2-bg">
+            <div class="row align-items-center">
+               <div class="col-xl-2 col-lg-5 col-5">
+                  <div class="rr-header-logo ml-20">
+                     <a href="index.html"><img src="assets/img/logo/logo.png" alt="img"></a>
+                  </div>
+               </div>
+               <div class="col-xl-7 col-lg-1 col-1">
+                  <div class="rr-header-main-menu rr-header-menu rr-header-2-menu d-none d-xl-block">
+                     <nav class="rr-main-menu-content text-end">
+                        <ul>
+                           <li class="has-dropdown">
+                              <a href="index.html">Home</a>
+                              <div class="rr-submenu submenu has-homemenu">
+                                 <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                                    <div class="col homemenu">
+                                       <div class="homemenu-thumb mb-15">
+                                          <img src="assets/img/menu/home-1.jpg" alt="img">
+                                          <div class="homemenu-btn">
+                                             <a class="rr-menu-btn" href="index.html">Home 01</a>
+                                          </div>
+                                       </div>
+                                       <div class="homemenu-content text-center">
+                                          <h4 class="homemenu-title">
+                                             <a href="index.html">Home 01</a>
+                                          </h4>
+                                       </div>
+                                    </div>
+                                    <div class="col homemenu">
+                                       <div class="homemenu-thumb mb-15">
+                                          <img src="assets/img/menu/home-2.jpg" alt="img">
+                                          <div class="homemenu-btn">
+                                             <a class="rr-menu-btn" href="index-2.html">Home 02</a>
+                                          </div>
+                                       </div>
+                                       <div class="homemenu-content text-center">
+                                          <h4 class="homemenu-title">
+                                             <a href="index-2.html">Home 02</a>
+                                          </h4>
+                                       </div>
+                                    </div>
+                                    <div class="col homemenu">
+                                       <div class="homemenu-thumb mb-15">
+                                          <img src="assets/img/menu/home-3.jpg" alt="img">
+                                          <div class="homemenu-btn">
+                                             <a class="rr-menu-btn" href="index-3.html">Home 03</a>
+                                          </div>
+                                       </div>
+                                       <div class="homemenu-content text-center">
+                                          <h4 class="homemenu-title">
+                                             <a href="index-3.html">Home 03</a>
+                                          </h4>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           <li><a href="about.html">about us</a></li>
+                           <li class="has-dropdown">
+                              <a href="services.html">Service</a>
+                              <ul class="submenu rr-submenu">
+                                 <li><a href="services.html">Service</a></li>
+                                 <li><a href="services-details.html">Service Details</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown">
+                              <a href="shop.html">Shop</a>
+                              <ul class="submenu rr-submenu">
+                                 <li><a href="shop.html">Shop</a></li>
+                                 <li><a href="shop-details.html">Shop Details</a></li>
+                                 <li><a href="cart.html">Cart</a></li>
+                                 <li><a href="wishlist.html">Wishlist</a></li>
+                                 <li><a href="checkout.html">Checkout</a></li>
+                                 <li><a href="sign-up.html">Sing Up</a></li>
+                                 <li><a href="sing-in.html">Sing In</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown">
+                              <a href="#">Pages</a>
+                              <ul class="submenu rr-submenu">
+                                 <li><a href="team.html">team</a></li>
+                                 <li><a href="team-details.html">team details</a></li>
+                                 <li><a href="pricing.html">pricing </a></li>
+                                 <li><a href="project.html">project</a></li>
+                                 <li><a href="project-details.html">project-details</a></li>
+                                 <li><a href="book-appointment.html">Book Appointment</a></li>
+                                 <li><a href="404.html">error</a></li>
+                              </ul>
+                           </li>
+                           <li class="has-dropdown">
+                              <a href="blog.html">Blog</a>
+                              <ul class="submenu rr-submenu">
+                                 <li><a href="blog.html">Blog Grid</a></li>
+                                 <li><a href="blog-sidebar.html">Blog Standard</a></li>
+                                 <li><a href="blog-details.html">Blog Details</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-6 col-6">
+                  <div class="rr-header-right d-flex align-items-center justify-content-end p-relative mr-30">
+
+                     <div class="rr-header-icon-search d-none d-xl-block">
+                        <button class="search-open-btn">
+                           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M7.22222 13.4444C10.6587 13.4444 13.4444 10.6587 13.4444 7.22222C13.4444 3.78578 10.6587 1 7.22222 1C3.78578 1 1 3.78578 1 7.22222C1 10.6587 3.78578 13.4444 7.22222 13.4444Z"
+                                 stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M15 15L11.6167 11.6167" stroke="#051145" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </button>
+                     </div>
+
+                     <div class="rr-header-icon-card d-none d-xl-block p-relative">
+                        <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M3.16667 1L1 3.8V13.6C1 13.9713 1.15218 14.3274 1.42307 14.5899C1.69395 14.8525 2.06135 15 2.44444 15H12.5556C12.9386 15 13.306 14.8525 13.5769 14.5899C13.8478 14.3274 14 13.9713 14 13.6V3.8L11.8333 1H3.16667Z"
+                              stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M1 3.79999H14" stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                           <path
+                              d="M10.3889 6.60001C10.3889 7.34261 10.0845 8.0548 9.54273 8.57991C9.00095 9.10501 8.26615 9.40001 7.49997 9.40001C6.73379 9.40001 5.99899 9.10501 5.45722 8.57991C4.91545 8.0548 4.61108 7.34261 4.61108 6.60001"
+                              stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span>0</span>
+                     </div>
+                     <div class="rr-header-contat d-none d-md-block ml-35">
+                        <a class="rr-btn" href="contact.html"><span>Book Now <i
+                                 class="fa-sharp fa-solid fa-arrow-right"></i></span></a>
+                     </div>
+                     <div class="rr-header-bar d-xl-none">
+                        <button class="rr-menu-bar"><i class="fa-solid fa-bars"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- header area end -->
+
+   </header>
+
+   <main>
+      <!-- hreo area start -->
+      <section class="rr-hero-2-area p-relative fix">
+         <div class="swiper main-slider-active">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide  rr-hero-space" data-background="assets/img/hero/banner.jpg">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-8">
+                           <div class="rr-hero-2-content text-center p-relative">
+                              <div class="rr-hero-shape">
+                                 <img src="assets/img/hero/vector.png" alt="">
+                              </div>
+                              <div class="rr-hero-shape2">
+                                 <img src="assets/img/hero/vector-02.png" alt="">
+                              </div>
+                              <h4>Hi, Meet Dreams</h4>
+                              <h3 class="rr-hero-title2">Lets Plan For Your Dream <br> Wedding</h3>
+                              <div class="rr-hero-btn">
+                                 <a class="rr-btn" href="services-details.html"><span>Read More</span> <i
+                                    class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2"></div>
+                     </div>
+                  </div>
+                  <div class="rr-hero-social">
+                     <ul>
+                        <li><a href="#"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M10 1H7.54545C6.46048 1 5.41994 1.42143 4.65274 2.17157C3.88555 2.92172 3.45455 3.93913 3.45455 5V7.4H1V10.6H3.45455V17H6.72727V10.6H9.18182L10 7.4H6.72727V5C6.72727 4.78783 6.81347 4.58434 6.96691 4.43431C7.12035 4.28429 7.32846 4.2 7.54545 4.2H10V1Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M19 1.00897C18.2165 1.61128 17.349 2.07195 16.4309 2.37324C15.9382 1.75576 15.2833 1.3181 14.5548 1.11947C13.8264 0.920833 13.0596 0.970799 12.3581 1.26261C11.6565 1.55442 11.0542 2.07399 10.6324 2.75105C10.2107 3.42812 9.98993 4.23001 10 5.04827V5.93995C8.56215 5.98058 7.13741 5.63305 5.85264 4.92829C4.56788 4.22354 3.46299 3.18345 2.63636 1.90065C2.63636 1.90065 -0.636364 9.92575 6.72727 13.4925C5.04225 14.739 3.03495 15.364 1 15.2758C8.36364 19.7342 17.3636 15.2758 17.3636 5.02152C17.3629 4.77315 17.341 4.52539 17.2982 4.28143C18.1332 3.38395 18.7225 2.25082 19 1.00897Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M12.1999 6.05264C13.4729 6.05264 14.6938 6.58497 15.594 7.53252C16.4942 8.48008 16.9999 9.76523 16.9999 11.1053V17H13.7999V11.1053C13.7999 10.6586 13.6313 10.2302 13.3313 9.91436C13.0312 9.59851 12.6242 9.42106 12.1999 9.42106C11.7756 9.42106 11.3686 9.59851 11.0685 9.91436C10.7685 10.2302 10.5999 10.6586 10.5999 11.1053V17H7.3999V11.1053C7.3999 9.76523 7.90562 8.48008 8.80579 7.53252C9.70596 6.58497 10.9269 6.05264 12.1999 6.05264Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M4.2 6.89474H1V17H4.2V6.89474Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M2.6 4.36842C3.48366 4.36842 4.2 3.61437 4.2 2.68421C4.2 1.75405 3.48366 1 2.6 1C1.71634 1 1 1.75405 1 2.68421C1 3.61437 1.71634 4.36842 2.6 4.36842Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M13 1H5C2.79086 1 1 2.79086 1 5V13C1 15.2091 2.79086 17 5 17H13C15.2091 17 17 15.2091 17 13V5C17 2.79086 15.2091 1 13 1Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M12.1999 8.496C12.2986 9.16179 12.1849 9.84177 11.8749 10.4392C11.5649 11.0366 11.0744 11.5211 10.4732 11.8237C9.87195 12.1263 9.19062 12.2317 8.52609 12.1247C7.86156 12.0178 7.24767 11.7041 6.77173 11.2281C6.2958 10.7522 5.98205 10.1383 5.87512 9.47377C5.76819 8.80924 5.87352 8.12791 6.17612 7.5267C6.47873 6.92548 6.96321 6.43499 7.56065 6.12499C8.15809 5.81499 8.83807 5.70127 9.50386 5.8C10.183 5.9007 10.8117 6.21717 11.2972 6.70264C11.7827 7.18812 12.0992 7.81686 12.1999 8.496Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M13.3999 4.60001H13.4079" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                     </ul>
+                  </div>
+                  <div class="rr-hero-counter">
+                     <span>01/03</span>
+                  </div>
+               </div>
+               <div class="swiper-slide rr-hero-space" data-background="assets/img/hero/banner-02.jpg">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-8">
+                           <div class="rr-hero-2-content text-center p-relative">
+                              <div class="rr-hero-shape">
+                                 <img src="assets/img/hero/vector.png" alt="">
+                              </div>
+                              <div class="rr-hero-shape2">
+                                 <img src="assets/img/hero/vector-02.png" alt="">
+                              </div>
+                              <h4>Hi, Meet Dreams</h4>
+                              <h3 class="rr-hero-title2">Lets Plan For Your Dream <br> Wedding</h3>
+                              <div class="rr-hero-btn">
+                                 <a class="rr-btn" href="services-details.html"><span>Read More</span> <i
+                                    class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2"></div>
+                     </div>
+                  </div>
+                  <div class="rr-hero-social">
+                     <ul>
+                        <li><a href="#"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M10 1H7.54545C6.46048 1 5.41994 1.42143 4.65274 2.17157C3.88555 2.92172 3.45455 3.93913 3.45455 5V7.4H1V10.6H3.45455V17H6.72727V10.6H9.18182L10 7.4H6.72727V5C6.72727 4.78783 6.81347 4.58434 6.96691 4.43431C7.12035 4.28429 7.32846 4.2 7.54545 4.2H10V1Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M19 1.00897C18.2165 1.61128 17.349 2.07195 16.4309 2.37324C15.9382 1.75576 15.2833 1.3181 14.5548 1.11947C13.8264 0.920833 13.0596 0.970799 12.3581 1.26261C11.6565 1.55442 11.0542 2.07399 10.6324 2.75105C10.2107 3.42812 9.98993 4.23001 10 5.04827V5.93995C8.56215 5.98058 7.13741 5.63305 5.85264 4.92829C4.56788 4.22354 3.46299 3.18345 2.63636 1.90065C2.63636 1.90065 -0.636364 9.92575 6.72727 13.4925C5.04225 14.739 3.03495 15.364 1 15.2758C8.36364 19.7342 17.3636 15.2758 17.3636 5.02152C17.3629 4.77315 17.341 4.52539 17.2982 4.28143C18.1332 3.38395 18.7225 2.25082 19 1.00897Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M12.1999 6.05264C13.4729 6.05264 14.6938 6.58497 15.594 7.53252C16.4942 8.48008 16.9999 9.76523 16.9999 11.1053V17H13.7999V11.1053C13.7999 10.6586 13.6313 10.2302 13.3313 9.91436C13.0312 9.59851 12.6242 9.42106 12.1999 9.42106C11.7756 9.42106 11.3686 9.59851 11.0685 9.91436C10.7685 10.2302 10.5999 10.6586 10.5999 11.1053V17H7.3999V11.1053C7.3999 9.76523 7.90562 8.48008 8.80579 7.53252C9.70596 6.58497 10.9269 6.05264 12.1999 6.05264Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M4.2 6.89474H1V17H4.2V6.89474Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M2.6 4.36842C3.48366 4.36842 4.2 3.61437 4.2 2.68421C4.2 1.75405 3.48366 1 2.6 1C1.71634 1 1 1.75405 1 2.68421C1 3.61437 1.71634 4.36842 2.6 4.36842Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M13 1H5C2.79086 1 1 2.79086 1 5V13C1 15.2091 2.79086 17 5 17H13C15.2091 17 17 15.2091 17 13V5C17 2.79086 15.2091 1 13 1Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M12.1999 8.496C12.2986 9.16179 12.1849 9.84177 11.8749 10.4392C11.5649 11.0366 11.0744 11.5211 10.4732 11.8237C9.87195 12.1263 9.19062 12.2317 8.52609 12.1247C7.86156 12.0178 7.24767 11.7041 6.77173 11.2281C6.2958 10.7522 5.98205 10.1383 5.87512 9.47377C5.76819 8.80924 5.87352 8.12791 6.17612 7.5267C6.47873 6.92548 6.96321 6.43499 7.56065 6.12499C8.15809 5.81499 8.83807 5.70127 9.50386 5.8C10.183 5.9007 10.8117 6.21717 11.2972 6.70264C11.7827 7.18812 12.0992 7.81686 12.1999 8.496Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M13.3999 4.60001H13.4079" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                     </ul>
+                  </div>
+                  <div class="rr-hero-counter">
+                     <span>02/03</span>
+                  </div>
+               </div>
+               <div class="swiper-slide rr-hero-space" data-background="assets/img/hero/banner-03.jpg">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-8">
+                           <div class="rr-hero-2-content text-center p-relative">
+                              <div class="rr-hero-shape">
+                                 <img src="assets/img/hero/vector.png" alt="">
+                              </div>
+                              <div class="rr-hero-shape2">
+                                 <img src="assets/img/hero/vector-02.png" alt="">
+                              </div>
+                              <h4>Hi, Meet Dreams</h4>
+                              <h3 class="rr-hero-title2">Lets Plan For Your Dream <br> Wedding</h3>
+                              <div class="rr-hero-btn">
+                                 <a class="rr-btn" href="services-details.html"><span>Read More</span> <i
+                                    class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-2"></div>
+                     </div>
+                  </div>
+                  <div class="rr-hero-social">
+                     <ul>
+                        <li><a href="#"><svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M10 1H7.54545C6.46048 1 5.41994 1.42143 4.65274 2.17157C3.88555 2.92172 3.45455 3.93913 3.45455 5V7.4H1V10.6H3.45455V17H6.72727V10.6H9.18182L10 7.4H6.72727V5C6.72727 4.78783 6.81347 4.58434 6.96691 4.43431C7.12035 4.28429 7.32846 4.2 7.54545 4.2H10V1Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M19 1.00897C18.2165 1.61128 17.349 2.07195 16.4309 2.37324C15.9382 1.75576 15.2833 1.3181 14.5548 1.11947C13.8264 0.920833 13.0596 0.970799 12.3581 1.26261C11.6565 1.55442 11.0542 2.07399 10.6324 2.75105C10.2107 3.42812 9.98993 4.23001 10 5.04827V5.93995C8.56215 5.98058 7.13741 5.63305 5.85264 4.92829C4.56788 4.22354 3.46299 3.18345 2.63636 1.90065C2.63636 1.90065 -0.636364 9.92575 6.72727 13.4925C5.04225 14.739 3.03495 15.364 1 15.2758C8.36364 19.7342 17.3636 15.2758 17.3636 5.02152C17.3629 4.77315 17.341 4.52539 17.2982 4.28143C18.1332 3.38395 18.7225 2.25082 19 1.00897Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M12.1999 6.05264C13.4729 6.05264 14.6938 6.58497 15.594 7.53252C16.4942 8.48008 16.9999 9.76523 16.9999 11.1053V17H13.7999V11.1053C13.7999 10.6586 13.6313 10.2302 13.3313 9.91436C13.0312 9.59851 12.6242 9.42106 12.1999 9.42106C11.7756 9.42106 11.3686 9.59851 11.0685 9.91436C10.7685 10.2302 10.5999 10.6586 10.5999 11.1053V17H7.3999V11.1053C7.3999 9.76523 7.90562 8.48008 8.80579 7.53252C9.70596 6.58497 10.9269 6.05264 12.1999 6.05264Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M4.2 6.89474H1V17H4.2V6.89474Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M2.6 4.36842C3.48366 4.36842 4.2 3.61437 4.2 2.68421C4.2 1.75405 3.48366 1 2.6 1C1.71634 1 1 1.75405 1 2.68421C1 3.61437 1.71634 4.36842 2.6 4.36842Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                        <li><a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M13 1H5C2.79086 1 1 2.79086 1 5V13C1 15.2091 2.79086 17 5 17H13C15.2091 17 17 15.2091 17 13V5C17 2.79086 15.2091 1 13 1Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M12.1999 8.496C12.2986 9.16179 12.1849 9.84177 11.8749 10.4392C11.5649 11.0366 11.0744 11.5211 10.4732 11.8237C9.87195 12.1263 9.19062 12.2317 8.52609 12.1247C7.86156 12.0178 7.24767 11.7041 6.77173 11.2281C6.2958 10.7522 5.98205 10.1383 5.87512 9.47377C5.76819 8.80924 5.87352 8.12791 6.17612 7.5267C6.47873 6.92548 6.96321 6.43499 7.56065 6.12499C8.15809 5.81499 8.83807 5.70127 9.50386 5.8C10.183 5.9007 10.8117 6.21717 11.2972 6.70264C11.7827 7.18812 12.0992 7.81686 12.1999 8.496Z" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M13.3999 4.60001H13.4079" stroke="#051145" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></li>
+                     </ul>
+                  </div>
+                  <div class="rr-hero-counter">
+                     <span>03/03</span>
+                  </div>
+               </div> 
+            </div>
+            <div class="rr-hero-arrow-box">
+               <button class="swiper-button-next">
+                  <img src="assets/img/hero/arrow-top.png" alt=""> 
+               </button>
+               <button class="swiper-button-prev">
+                  <img src="assets/img/hero/arrow-bottom.png" alt="">
+               </button>
+            </div>
+            <div class="swiper-pagination">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+         </div>
+         
+      </section>
+      <!-- hero area end -->
+      <!-- service area start -->
+      <section class="rr-service-area pt-100 pb-50 p-relative fix">
+         <div class="container">
+            <div class="row gx-30">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                  <div class="rr-service-item text-center mb-30">
+                     <div class="rr-service-thumb">
+                        <img src="assets/img/service/img.jpg" alt="">
+                     </div>
+                     <div class="rr-service-content">
+                        <h4 class="rr-service-title"><a href="services-details.html">Professional Assistance</a></h4>
+                        <p>Aenean faucibus nibh et justo cursus id <br/> rutrum lorem imperdiet. Nunc ut sem vitae <br/>
+                           risus tristique posuere.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                  <div class="rr-service-item text-center mb-30">
+                     <div class="rr-service-thumb">
+                        <img src="assets/img/service/img2.jpg" alt="">
+                     </div>
+                     <div class="rr-service-content">
+                        <h4 class="rr-service-title"><a href="services-details.html">Wedding Planning</a></h4>
+                        <p>Aenean faucibus nibh et justo cursus id <br/> rutrum lorem imperdiet. Nunc ut sem vitae <br/>
+                           risus tristique posuere.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-12 wow rrfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".7ss">
+                  <div class="rr-service-item text-center mb-30">
+                     <div class="rr-service-thumb">
+                        <img src="assets/img/service/img3.jpg" alt="">
+                     </div>
+                     <div class="rr-service-content">
+                        <h4 class="rr-service-title"><a href="services-details.html">Venue Reservation</a></h4>
+                        <p>Aenean faucibus nibh et justo cursus id <br/> rutrum lorem imperdiet. Nunc ut sem vitae <br/>
+                           risus tristique posuere.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- service area end -->
+      <!-- video area start -->
+      <section class="rr-video-area fix p-relative">
+         <div class="rr-video-shap-wrapp">
+            <div class="rr-video-shap-left d-none d-xl-block">
+               <img src="assets/img/video/shap.png" alt="">
+            </div>
+            <div class="rr-video-shap-right d-none d-xl-block">
+               <img src="assets/img/video/shap-2.png" alt="">
+            </div>
+         </div>
+         <div class="container">
+            <div class="row gx-30">
+               <div class="rr-section-title-wrapper mb-40 text-center">
+                  <span class="rr-section-subtitle wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">Wedding
+                     Ceremony</span>
+                  <h3 class="rr-section-title wow rrfadeLeft" data-wow-duration=".9s" data-wow-delay=".9s">Telling Your
+                     Story Through Beautiful <br/> And Meaningful Photography
+                  </h3>
+               </div>
+            </div>
+            <div class="row">
+               <div class="offset-xl-1 col-xl-10">
+                  <div class="rr-video-thumb p-relative">
+                     <img src="assets/img/video/img.jpg" alt="img">
+                     <div class="rr-video-play">
+                        <span><a class="popup-video" href="https://www.youtube.com/watch?v=BevD2sTa5Ds"><svg width="17" height="22" viewBox="0 0 17 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M1 1L16 11L1 21V1Z" stroke="#1B7262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                         </svg></a></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- video area end -->
+      <!-- fact area start -->
+      <div class="rr-funfact-2-area pt-120 p-relative fix">
+         <div class="container">
+            <div class="rr-funfact-2">
+               <div class="row gx-30">
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow rrfadeUp" data-wow-duration=".9s"
+                     data-wow-delay=".3s">
+                     <div class="rr-funfact-2-content text-center fix p-relative mb-30">
+                        <div class="rr-funfact-2-number d-flex align-items-center justify-content-center">
+                           <div class="rr-funfact-2-icon mr-15">
+                              <img src="assets/img/counter/icon.png" alt="">
+                           </div>
+                           <div class="rr-funfact-2-info">
+                              <div class="rr-funfact-2-counter d-flex align-items-center">
+                                 <h5 class="rr-funfact-2-number purecounter" data-purecounter-duration="1"
+                                    data-purecounter-end="1542">0</h5>
+                                 <b>+</b>
+                              </div>
+                              <div class="rr-funfact-2-text">
+                                 <span>Flower Arrangements</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow rrfadeUp" data-wow-duration=".9s"
+                     data-wow-delay=".5s">
+                     <div class="rr-funfact-2-content text-center fix p-relative mb-30">
+                        <div class="rr-funfact-2-number d-flex align-items-center justify-content-center">
+                           <div class="rr-funfact-2-icon mr-15">
+                              <img src="assets/img/counter/icon-02.png" alt="">
+                           </div>
+                           <div class="rr-funfact-2-info">
+                              <div class="rr-funfact-2-counter d-flex align-items-center">
+                                 <h5 class="rr-funfact-2-number purecounter" data-purecounter-duration="1"
+                                    data-purecounter-end="1260">0</h5>
+                                 <b>+</b>
+                              </div>
+                              <div class="rr-funfact-2-text">
+                                 <span>Ceremonies</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow rrfadeUp" data-wow-duration=".9s"
+                     data-wow-delay=".7s">
+                     <div class="rr-funfact-2-content text-center fix p-relative mb-30">
+                        <div class="rr-funfact-2-number d-flex align-items-center justify-content-center">
+                           <div class="rr-funfact-2-icon mr-15">
+                              <img src="assets/img/counter/icon-03.png" alt="">
+                           </div>
+                           <div class="rr-funfact-2-info">
+                              <div class="rr-funfact-2-counter d-flex align-items-center">
+                                 <h5 class="rr-funfact-2-number purecounter" data-purecounter-duration="1"
+                                    data-purecounter-end="150">0</h5>
+                                 <b>+</b>
+                              </div>
+                              <div class="rr-funfact-2-text">
+                                 <span>Wedding Cakes</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow rrfadeUp" data-wow-duration=".9s"
+                     data-wow-delay=".9s">
+                     <div class="rr-funfact-2-content text-center fix p-relative mb-30">
+                        <div class="rr-funfact-2-number d-flex align-items-center justify-content-center">
+                           <div class="rr-funfact-2-icon mr-15">
+                              <img src="assets/img/counter/icon-04.png" alt="">
+                           </div>
+                           <div class="rr-funfact-2-info">
+                              <div class="rr-funfact-2-counter d-flex align-items-center">
+                                 <h5 class="rr-funfact-2-number purecounter" data-purecounter-duration="1"
+                                    data-purecounter-end="1000">0</h5>
+                                 <b>+</b>
+                              </div>
+                              <div class="rr-funfact-2-text">
+                                 <span>Happy Couples</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- fact area end -->
+      <!-- about area start -->
+      <section class="rr-about-area pt-90 pb-120 fix p-relative">
+         <div class="container ">
+            <div class="rr-about-shap-wrap d-none d-lg-block">
+               <img src="assets/img/about/shap.png" alt="">
+            </div>
+            <div class="row">
+               <div class="col-xl-6">
+                  <div class="rr-about-thumb rr-about-thumb-2 wow rrfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
+                     <img src="assets/img/about/img.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-xl-6">
+                  <div class="rr-about-info p-relative">
+                     <div class="rr-section-title-wrapper mb-40">
+                        <span class="rr-section-subtitle wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">Who
+                           We Are</span>
+                        <h3 class="rr-section-title pb-15 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                           Weave Story Into Every Thread of Your Event</h3>
+                        <p class=" wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">Our wedding planning and
+                           events coordination services are designed for Any Sized budget,
+                           meaning anyone. Our wedding planning and events coordination services are designed.</p>
+                     </div>
+                     <div class="rr-about-btn wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                        <a href="about.html" class="rr-btn"><span> More About Us <i class="fa-sharp fa-solid fa-arrow-right"></i></span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- about area end -->
+      <!-- out work area start -->
+      <section class="rr-work-area fix">
+         <div class="container custom-container-1">
+            <div class="row gx-30">
+               <div class="rr-section-title-wrapper mb-40 text-center">
+                  <span class="rr-section-subtitle wow rrfadeRight" data-wow-duration=".9s"
+                     data-wow-delay=".5s">Portfolio</span>
+                  <h3 class="rr-section-title wow rrfadeLeft" data-wow-duration=".9s" data-wow-delay=".9s">Our Work</h3>
+               </div>
+            </div>
+            <div class="row gx-30">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 wow rrfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".3s">
+                  <div class="rr-work-item">
+                     <div class="rr-work-thumb">
+                        <img src="assets/img/work/img.jpg" alt="img">
+                        <div class="rr-work-content text-center">
+                           <h4 class="rr-work-title"><a href="project-details.html">Maria & Nevela</a></h4>
+                           <span>Austria- Jul 2022</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 wow rrfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".4s">
+                  <div class="rr-work-item">
+                     <div class="rr-work-thumb">
+                        <img src="assets/img/work/img-02.jpg" alt="img">
+                        <div class="rr-work-content text-center">
+                           <h4 class="rr-work-title"><a href="project-details.html">The Happiest Day</a></h4>
+                           <span>Austria- Jul 2022</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 wow rrfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".5s">
+                  <div class="rr-work-item">
+                     <div class="rr-work-thumb">
+                        <img src="assets/img/work/img-03.jpg" alt="img">
+                        <div class="rr-work-content text-center">
+                           <h4 class="rr-work-title"><a href="project-details.html">Perfect Bouquets </a></h4>
+                           <span>Austria- Jul 2022</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 wow rrfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".6s">
+                  <div class="rr-work-item">
+                     <div class="rr-work-thumb">
+                        <img src="assets/img/work/image_04.jpg" alt="img">
+                        <div class="rr-work-content text-center">
+                           <h4 class="rr-work-title"><a href="project-details.html">Newlywed Couple </a></h4>
+                           <span>Austria- Jul 2022</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 wow rrfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".7s">
+                  <div class="rr-work-item">
+                     <div class="rr-work-thumb">
+                        <img src="assets/img/work/image_05.jpg" alt="img">
+                        <div class="rr-work-content text-center">
+                           <h4 class="rr-work-title"><a href="project-details.html">First Dance </a></h4>
+                           <span>Austria- Jul 2022</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-5 col-lg-4 col-md-6 col-sm-6 col-12 wow rrfadeUp" data-wow-duration=".9s"
+                  data-wow-delay=".8s">
+                  <div class="rr-work-item">
+                     <div class="rr-work-thumb">
+                        <img src="assets/img/work/image_06.jpg" alt="img">
+                        <div class="rr-work-content text-center">
+                           <h4 class="rr-work-title"><a href="project-details.html">Milestone Event </a></h4>
+                           <span>Austria- Jul 2022</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- out work area end -->
+      <!-- price area start -->
+      <section class="rr-pricing-area p-relative pt-90 pb-90 fix">
+         <div class="container">
+            <div class="row gx-30">
+               <div class="rr-section-title-wrapper mb-90 text-center">
+                  <span class="rr-section-subtitle wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">Best
+                     Deals</span>
+                  <h3 class="rr-section-title wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">Best Pricing
+                     Solutions</h3>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4 col-md-6 col-12 p-0">
+                  <div class="rr-pricing-item p-relative mb-30 wow fadeInUp text-center" data-wow-duration="1s"
+                     data-wow-delay=".3s">
+                     <div class="rr-pricing-head">
+                        <h4 class="rr-pricing-tag">Day Of Facilitation</h4>
+                     </div>
+                     <h3 class="rr-pricing-price">$3000<span> /Event</span></h3>
+                     <div class="rr-pricing-list">
+                        <ul>
+                           <li>Two pre-event consultations</li>
+                           <li>Detailed event day timeline</li>
+                           <li>Directing the ceremony processiona</li>
+                           <li>Up to eight hours on-site with your coordinator</li>
+                        </ul>
+                     </div>
+                     <div class="rr-pricing-btn">
+                        <a class="rr-btn-2" href="pricing.html"><span>Select Plan </span><i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12 p-0">
+                  <div class="rr-pricing-item rr-pricing-item-medial p-relative active mb-30 wow fadeInUp text-center"
+                     data-wow-duration="1s" data-wow-delay=".5s">
+                     <div class="rr-pricing-head">
+                        <h4 class="rr-pricing-tag">Full Service <span>/ Popular</span></h4>
+                     </div>
+                     <h3 class="rr-pricing-price">$7000<span> /Event</span></h3>
+                     <div class="rr-pricing-list">
+                        <ul>
+                           <li>Unlimited pre-event consultations</li>
+                           <li>Detailed event day timeline</li>
+                           <li>Vendor recommendations, negotiations <br> and bookings</li>
+                           <li>Tracking of guest RSVP’s</li>
+                           <li>Directing the ceremony processional</li>
+                           <li>Unlimited time on-site with your coordinator</li>
+                        </ul>
+                     </div>
+                     <div class="rr-pricing-btn">
+                        <a class="rr-btn" href="pricing.html"><span>Select Plan </span> <i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-12 p-0">
+                  <div class="rr-pricing-item p-relative mb-30 wow fadeInUp text-center" data-wow-duration="1s"
+                     data-wow-delay=".3s">
+                     <div class="rr-pricing-head">
+                        <h4 class="rr-pricing-tag">Partial Planning</h4>
+                     </div>
+                     <h3 class="rr-pricing-price">$5000<span> /Event</span></h3>
+                     <div class="rr-pricing-list">
+                        <ul>
+                           <li>Two pre-event consultations</li>
+                           <li>Detailed event day timeline</li>
+                           <li>Directing the ceremony processiona</li>
+                           <li>Up to eight hours on-site with your coordinator</li>
+                        </ul>
+                     </div>
+                     <div class="rr-pricing-btn">
+                        <a class="rr-btn-2" href="pricing.html"><span>Select Plan </span> <i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- price area end -->
+      <!-- cta area start -->
+      <section class="rr-cta-2-area p-relative rr-cta-2-before-color fix" data-background="assets/img/cta/cta-bg-2.jpg">
+         <div class="rr-cta-2-bg-img">
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-9 col-lg-8 col-md-8 col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+                  <div class="rr-cta-2-info">
+                     <h3 class="rr-cta-2-title-left">Extraordinary Events, Flawless Execution</h3>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-4 col-md-4 col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+                  <div class="rr-cta-2-btns text-end mt-10">
+                     <a class="rr-btn-white " href="contact.html"><span>Contact Now</span> <i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- cta area end -->
+    <!-- shop area start -->
+    <section class="rr-shop-area rr-shop-bg pt-90 pb-80 fix">
+      <div class="container">
+         <div class="row gx-30">
+            <div class="rr-section-title-wrapper mb-40 text-center">
+               <span class="rr-section-subtitle wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">Our Shop</span>
+               <h3 class="rr-section-title wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">Special Product For You</h3>
+            </div>
+         </div>
+         <div class="row gx-30">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Wedding Gown</a></h4>
+                     <span>$380.00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".4s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image2.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Bridal Flower</a></h4>
+                     <span>$176.00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image3.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Wedding Photography</a></h4>
+                     <span>$380.00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".6s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image4.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Wedding Gown</a></h4>
+                     <span>$380.00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image5.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Wedding Cake</a></h4>
+                     <span>$176.00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".8s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image6.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Bride’s Crown</a></h4>
+                     <span>$125.00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image7.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Wedding Rings</a></h4>
+                     <span>$290.00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6  col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".9s">
+               <div class="rr-shop-item mb-30">
+                  <div class="rr-shop-thumb">
+                     <img src="assets/img/shop/image8.jpg" alt="">
+                     <div class="rr-shop-cart-btn text-center">
+                        <a href="shop-details.html">Add To Cart</a>
+                     </div>
+                  </div>
+                  <div class="rr-shop-content text-center">
+                     <h4 class="rr-shop-title"><a href="shop-details.html">Wedding White Shoes</a></h4>
+                     <span>$65.00</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- shop area end -->
+
+
+      <!-- blog area start -->
+      <section class="rr-blog-area pt-120 pb-90 p-relative fix">
+         <div class="container">
+            <div class="row gx-30">
+               <div class="col-lg-12">
+                  <div class="rr-section-title-wrapper mb-40 text-center">
+                     <span class="rr-section-subtitle wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">Our
+                        Blog</span>
+                     <h3 class="rr-section-title wow rrfadeLeft" data-wow-duration=".9s" data-wow-delay=".9s">Read Our
+                        Latest News & Blog</h3>
+                  </div>
+               </div>
+            </div>
+            <div class="row gx-30">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div class="rr-blog-item-wrapper p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
+                     data-wow-delay=".3s">
+                     <div class="rr-blog-item-thumb fix">
+                        <a href="blog-details.html"><img src="assets/img/blog/blog-4.jpg" alt=""></a>
+                        <div class="rr-blog-2-item-date">
+                           <h4>22</h4>
+                           <p>sep</p>
+                        </div>
+                     </div>
+                     <div class="rr-blog-item-content">
+                        <div class="rr-blog-item-info d-flex">
+                           <span><img src="assets/img/blog/user.svg" alt=""> <a href="#"> By admin</a></span>
+                           <span><img src="assets/img/blog/comments.svg" alt=""><a href="#"> 2 Comments</a></span>
+                        </div>
+                        <h4 class="rr-blog-item-title"><a href="blog-details.html">Where You Can Find Best Services
+                              For
+                              Your Wedding</a></h4>
+                        <div class="rr-blog-item-btn">
+                           <a href="blog-details.html">Read More <span><i
+                              class="fa-regular fa-arrow-right"></i></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div class="rr-blog-item-wrapper p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
+                     data-wow-delay=".5s">
+                     <div class="rr-blog-item-thumb fix">
+                        <a href="blog-details.html"><img src="assets/img/blog/blog-5.jpg" alt=""></a>
+                        <div class="rr-blog-2-item-date">
+                           <h4>22</h4>
+                           <p>sep</p>
+                        </div>
+                     </div>
+                     <div class="rr-blog-item-content">
+                        <div class="rr-blog-item-info d-flex">
+                           <span><img src="assets/img/blog/user.svg" alt=""> <a href="#"> By admin</a></span>
+                           <span><img src="assets/img/blog/comments.svg" alt=""><a href="#"> 2 Comments</a></span>
+                        </div>
+                        <h4 class="rr-blog-item-title"><a href="blog-details.html">You Must Need a Great
+                              Photographer.</a></h4>
+                        <div class="rr-blog-item-btn">
+                           <a href="blog-details.html">Read More <span><i
+                                    class="fa-regular fa-arrow-right"></i></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                  <div class="rr-blog-item-wrapper p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
+                     data-wow-delay=".7s">
+                     <div class="rr-blog-item-thumb fix">
+                        <a href="blog-details.html"><img src="assets/img/blog/blog-6.jpg" alt=""></a>
+                        <div class="rr-blog-2-item-date">
+                           <h4>22</h4>
+                           <p>sep</p>
+                        </div>
+                     </div>
+                     <div class="rr-blog-item-content">
+                        <div class="rr-blog-item-info d-flex">
+                           <span><img src="assets/img/blog/user.svg" alt=""> <a href="#"> By admin</a></span>
+                           <span><img src="assets/img/blog/comments.svg" alt=""><a href="#"> 2 Comments</a></span>
+                        </div>
+                        <h4 class="rr-blog-item-title"><a href="blog-details.html">Make sure your wedding gown is the
+                              best one.</a></h4>
+                        <div class="rr-blog-item-btn">
+                           <a href="blog-details.html">Read More <span><i
+                                    class="fa-regular fa-arrow-right"></i></span></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- blog area end -->
+      <!-- cta area start -->
+      <section class="rr-cta-area pt-125 pb-120 p-relative rr-cta-before-color fix"
+         data-background="assets/img/cta/cta-bg.jpg">
+         <div class="rr-cta-bg-img">
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-12">
+                  <div class="rr-cta-info text-center">
+                     <h3 class="rr-cta-title-2 mb-40 wow rrfadeRight" data-wow-duration=".9s" data-wow-delay=".3s">Book
+                        Us For Your Special Day</h3>
+                     <div class="rr-cta-btn wow rrfadeLeft" data-wow-duration=".9s" data-wow-delay=".5s">
+                        <a class="rr-btn-white " href="contact.html"><span>Learn More </span><i
+                              class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- cta area end -->
+
+   </main>
+
+   <footer>
+      <div class="rr-footer-2-main p-relative fix">
+         <!-- footer area start -->
+         <div class="rr-footer-2-area pt-85 p-relative fix">
+            <div class="container">
+               <div class="rr-footer-2-border">
+                  <div class="row gx-30">
+                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 wow rrfadeUp" data-wow-duration=".9s"
+                        data-wow-delay=".3s">
+                        <div class="rr-footer-2-widget footer-cols-1">
+                           <div class="rr-footer-2-logo pb-20">
+                              <a href="index.html"><img src="assets/img/logo/logo.png" alt="img"></a>
+                           </div>
+                           <div class="rr-footer-2-widget-content mb-25">
+                              <p>Lorem ipsum dolor sit amet consec <br/> tetur adipiscing elit eiusmod tempor <br/>
+                                 incidunt labore
+                                 dolore magna aliqua <br/> consec tetur elite sed do labor.</p>
+                           </div>
+                           <div class="rr-footer-2-social d-flex align-items-center">
+                              <span>Follow Us :</span>
+                              <a href="#"><svg width="11" height="18" viewBox="0 0 11 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M10 1H7.54545C6.46048 1 5.41994 1.42143 4.65274 2.17157C3.88555 2.92172 3.45455 3.93913 3.45455 5V7.4H1V10.6H3.45455V17H6.72727V10.6H9.18182L10 7.4H6.72727V5C6.72727 4.78783 6.81347 4.58434 6.96691 4.43431C7.12035 4.28429 7.32846 4.2 7.54545 4.2H10V1Z"
+                                       stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                 </svg>
+
+                              </a>
+                              <a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                     >
+                                    <path
+                                       d="M12.2 6.05273C13.473 6.05273 14.6939 6.58506 15.5941 7.53262C16.4943 8.48017 17 9.76532 17 11.1054V17.0001H13.8V11.1054C13.8 10.6587 13.6314 10.2303 13.3313 9.91445C13.0313 9.5986 12.6243 9.42116 12.2 9.42116C11.7756 9.42116 11.3687 9.5986 11.0686 9.91445C10.7685 10.2303 10.6 10.6587 10.6 11.1054V17.0001H7.39996V11.1054C7.39996 9.76532 7.90568 8.48017 8.80585 7.53262C9.70603 6.58506 10.9269 6.05273 12.2 6.05273Z"
+                                       stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                    <path d="M4.2 6.89453H1V16.9998H4.2V6.89453Z" stroke="#051145" stroke-width="1.5"
+                                       stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                       d="M2.6 4.36842C3.48366 4.36842 4.2 3.61437 4.2 2.68421C4.2 1.75405 3.48366 1 2.6 1C1.71634 1 1 1.75405 1 2.68421C1 3.61437 1.71634 4.36842 2.6 4.36842Z"
+                                       stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                 </svg>
+                              </a>
+                              <a href="#"><svg width="20" height="18" viewBox="0 0 20 18" fill="none"
+                                     >
+                                    <path
+                                       d="M19 1.00897C18.2165 1.61128 17.349 2.07195 16.4309 2.37324C15.9382 1.75576 15.2833 1.3181 14.5548 1.11947C13.8264 0.920833 13.0596 0.970799 12.3581 1.26261C11.6565 1.55442 11.0542 2.07399 10.6324 2.75105C10.2107 3.42812 9.98993 4.23001 10 5.04827V5.93995C8.56215 5.98058 7.13741 5.63305 5.85264 4.92829C4.56788 4.22354 3.46299 3.18345 2.63636 1.90065C2.63636 1.90065 -0.636364 9.92575 6.72727 13.4925C5.04225 14.739 3.03495 15.364 1 15.2758C8.36364 19.7342 17.3636 15.2758 17.3636 5.02152C17.3629 4.77315 17.341 4.52539 17.2982 4.28143C18.1332 3.38395 18.7225 2.25082 19 1.00897Z"
+                                       stroke="#040404" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                 </svg>
+                              </a>
+                              <a href="#"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                     >
+                                    <path
+                                       d="M13 1H5C2.79086 1 1 2.79086 1 5V13C1 15.2091 2.79086 17 5 17H13C15.2091 17 17 15.2091 17 13V5C17 2.79086 15.2091 1 13 1Z"
+                                       stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                    <path
+                                       d="M12.2 8.49624C12.2987 9.16204 12.185 9.84201 11.875 10.4395C11.565 11.0369 11.0745 11.5214 10.4733 11.824C9.87204 12.1266 9.19071 12.2319 8.52618 12.125C7.86165 12.0181 7.24776 11.7043 6.77183 11.2284C6.29589 10.7524 5.98214 10.1385 5.87521 9.47401C5.76828 8.80948 5.87361 8.12816 6.17622 7.52694C6.47882 6.92572 6.9633 6.43523 7.56074 6.12523C8.15818 5.81523 8.83816 5.70151 9.50395 5.80024C10.1831 5.90095 10.8118 6.21741 11.2973 6.70289C11.7828 7.18836 12.0992 7.8171 12.2 8.49624Z"
+                                       stroke="#051145" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                    <path d="M13.4 4.6001H13.408" stroke="#051145" stroke-width="1.5"
+                                       stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 wow rrfadeUp" data-wow-duration=".9s"
+                        data-wow-delay=".5s">
+                        <div class="rr-footer-2-widget footer-cols-2">
+                           <h4 class="rr-footer-2-title">Information</h4>
+                           <div class="rr-footer-2-list ">
+                              <ul>
+                                 <li><a href="about.html">About Us</a></li>
+                                 <li><a href="project.html">Portfolio</a></li>
+                                 <li><a href="blog.html">Latest News</a></li>
+                                 <li><a href="contact.html">Contact us</a></li>
+                                 <li><a href="service-details.html">Our Services</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 wow rrfadeUp" data-wow-duration=".9s"
+                        data-wow-delay=".3s">
+                        <div class="rr-footer-2-widget footer-cols-1">
+                           <h4 class="rr-footer-2-title">Contact</h4>
+                           <div class="rr-footer-2-widget-content mb-25">
+                              <p>Would you have any enquiries.Please feel free to contuct us</p>
+                              <div class="rr-footer-2-widget-content-item">
+                                 <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M2.4 1H13.6C14.37 1 15 1.63 15 2.4V10.8C15 11.57 14.37 12.2 13.6 12.2H2.4C1.63 12.2 1 11.57 1 10.8V2.4C1 1.63 1.63 1 2.4 1Z"
+                                       stroke="#54595F" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                    <path d="M15 2.3999L8 7.2999L1 2.3999" stroke="#54595F" stroke-width="1.5"
+                                       stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                                 <a href="mailto:brulloft@gmail.com">brulloft@gmail.com</a>
+                              </div>
+                              <div class="rr-footer-2-widget-content-item">
+                                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                       d="M9.67161 3.67583C10.3263 3.80331 10.9279 4.12286 11.3995 4.59359C11.8712 5.06432 12.1913 5.66481 12.319 6.3182M9.67161 1C11.0317 1.15081 12.3 1.75871 13.2683 2.72391C14.2365 3.6891 14.8472 4.95421 15 6.31151M14.3298 11.6498V13.6567C14.3305 13.843 14.2923 14.0274 14.2175 14.1981C14.1427 14.3688 14.033 14.522 13.8955 14.648C13.758 14.7739 13.5956 14.8698 13.4187 14.9295C13.2419 14.9892 13.0546 15.0113 12.8686 14.9946C10.8062 14.7709 8.8251 14.0675 7.08449 12.9409C5.46509 11.9138 4.09211 10.5434 3.06307 8.92713C1.93035 7.18196 1.22544 5.19502 1.00544 3.12728C0.988691 2.94229 1.01072 2.75585 1.07012 2.57982C1.12952 2.4038 1.22499 2.24204 1.35046 2.10486C1.47592 1.96768 1.62863 1.85808 1.79886 1.78303C1.96909 1.70798 2.15312 1.66913 2.33921 1.66896H4.34993C4.6752 1.66576 4.99053 1.78072 5.23716 1.99242C5.48379 2.20411 5.64488 2.49809 5.6904 2.81956C5.77527 3.4618 5.93266 4.0924 6.15957 4.69933C6.24974 4.93876 6.26926 5.19898 6.2158 5.44915C6.16235 5.69932 6.03816 5.92895 5.85796 6.11083L5.00676 6.9604C5.96088 8.63517 7.35021 10.0218 9.02818 10.9741L9.87939 10.1246C10.0616 9.94471 10.2917 9.82076 10.5423 9.76741C10.793 9.71405 11.0537 9.73353 11.2936 9.82354C11.9017 10.05 12.5335 10.2071 13.177 10.2918C13.5025 10.3376 13.7999 10.5013 14.0124 10.7517C14.225 11.0021 14.3379 11.3217 14.3298 11.6498Z"
+                                       stroke="#54595F" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                 </svg>
+                                 <a href="tel:888123869523">+888(123)869523</a>
+                              </div>
+                              <div class="rr-footer-2-widget-content-item">
+                                 <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 3.6V14L5.45455 11.4L10.5455 14L15 11.4V1L10.5455 3.6L5.45455 1L1 3.6Z"
+                                       stroke="#54595F" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                    <path d="M5.45459 1V11.4" stroke="#54595F" stroke-width="1.5" stroke-linecap="round"
+                                       stroke-linejoin="round" />
+                                    <path d="M10.5454 3.6001V14.0001" stroke="#54595F" stroke-width="1.5"
+                                       stroke-linecap="round" stroke-linejoin="round" />
+                                 </svg>
+                                 <a href="#"> New York – 1075 Firs Avenue</a>
+                              </div>
+
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-50 wow rrfadeUp" data-wow-duration=".9s"
+                        data-wow-delay=".7s">
+                        <div class="rr-footer-2-widget footer-cols-3">
+                           <h4 class="rr-footer-2-title">Instagram</h4>
+                           <div class="rr-footer-2__widget-gallery-wrap">
+                              <div class="row gx-5">
+                                 <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
+                                    <div class="rr-footer__widget-gallery p-relative">
+                                       <a href="assets/img/gallery/img-xl.jpg" class="our-gallery__item popup-image">
+                                          <img src="assets/img/gallery/img.jpg" alt="image not found">
+                                          <span><i class="fa-solid fa-plus"></i></span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
+                                    <div class="rr-footer__widget-gallery p-relative">
+                                       <a href="assets/img/gallery/img-2-xl.jpg" class="our-gallery__item popup-image">
+                                          <img src="assets/img/gallery/img-2.jpg" alt="image not found">
+                                          <span><i class="fa-solid fa-plus"></i></span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
+                                    <div class="rr-footer__widget-gallery p-relative">
+                                       <a href="assets/img/gallery/img-3-xl.jpg" class="our-gallery__item popup-image">
+                                          <img src="assets/img/gallery/img-3.jpg" alt="image not found">
+                                          <span><i class="fa-solid fa-plus"></i></span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
+                                    <div class="rr-footer__widget-gallery p-relative">
+                                       <a href="assets/img/gallery/img-4-xl.jpg" class="our-gallery__item popup-image">
+                                          <img src="assets/img/gallery/img-4.jpg" alt="image not found">
+                                          <span><i class="fa-solid fa-plus"></i></span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
+                                    <div class="rr-footer__widget-gallery p-relative">
+                                       <a href="assets/img/gallery/img-5-xl.jpg" class="our-gallery__item popup-image">
+                                          <img src="assets/img/gallery/img-11.jpg" alt="image not found">
+                                          <span><i class="fa-solid fa-plus"></i></span>
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="col-xl-4 col-lg-4 col-md-3 col-4  p-1">
+                                    <div class="rr-footer__widget-gallery p-relative">
+                                       <a href="assets/img/gallery/img-6-xl.jpg" class="our-gallery__item popup-image">
+                                          <img src="assets/img/gallery/img-6.jpg" alt="image not found">
+                                          <span><i class="fa-solid fa-plus"></i></span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- footer area end -->
+
+         <!-- copy-right area start -->
+         <div class="rr-copyright-2-area p-relative">
+            <div class="container rr-copyright-2-broder rr-copyright-2-space">
+               <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
+                     <div class="rr-copyright-2-left-main">
+                        <p>© 2024 <a href="#"> Brulloft.</a> Design By RRDevs. All Rights Reserved.</p>
+                     </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-12 wow rrfadeUp" data-wow-duration=".9s" data-wow-delay=".6s">
+                     <div class="rr-copyright-2-right text-end">
+                        <p>Privacy & Terms Condition</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- copy-right area end -->
+      </div>
+   </footer>
+
+   <!-- JS here -->
+   <script src="assets/js/vendor/jquery.js"></script>
+   <script src="assets/js/vendor/waypoints.js"></script>
+   <script src="assets/js/bootstrap-bundle.js"></script>
+   <script src="assets/js/swiper-bundle.js"></script>
+   <script src="assets/js/slick.js"></script>
+   <script src="assets/js/magnific-popup.js"></script>
+   <script src="assets/js/nice-select.js"></script>
+   <script src="assets/js/purecounter.js"></script>
+   <script src="assets/js/wow.js"></script>
+   <script src="assets/js/smooth-scroll.js"></script>
+   <script src="assets/js/ajax-form.js"></script>
+   <script src="assets/js/imagesloaded-pkgd.js"></script>
+   <script src="assets/js/main.js"></script>
+
+</body>
+</html>
