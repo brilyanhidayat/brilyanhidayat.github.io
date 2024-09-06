@@ -1,2 +1,0 @@
-# ligat
-Company Profile LIGAT
